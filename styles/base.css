@@ -34,7 +34,7 @@ header h1 {
 nav {
     background-color: #17C3B2;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 nav ul {
@@ -47,7 +47,7 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 main {
