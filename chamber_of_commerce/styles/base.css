@@ -1,0 +1,119 @@
+/* Reset CSS or Normalize CSS here if needed */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #75AADB;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    margin-top: 10px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #FFD100;
+}
+
+.main {
+    padding: 20px;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel {
+    width: 80%;
+    max-width: 800px; 
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1); 
+}
+
+.carousel-control-prev {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-next {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.col-md-6 {
+    width: 48%;
+    margin-right: 2%;
+}
+
+.mamotest_logo {
+    width: 200px;
+    height: 200px;
+}
+
+.footer {
+    background-color: #75AADB;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.cta-link {
+    background-color: #FFD100;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-link:hover {
+    background-color: #FFD100;
+    color: #fff;
+}
