@@ -18,7 +18,6 @@ header {
     text-align: center;
     background-color: #083a4d;
     color: #ffff;
-
 }
 
 header img {
@@ -67,12 +66,12 @@ footer {
     display: flex;
     flex-direction: column;
 }
+
 .navigation ul {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 
 .main-section {
     display: flex;
@@ -84,4 +83,26 @@ footer {
         display: flex;
         flex-direction: row;
     }
+}
+
+.learning-activities {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.learning-activities ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+.learning-activities ol li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.learning-activities ol li:last-child {
+    border-bottom: none;
 }
